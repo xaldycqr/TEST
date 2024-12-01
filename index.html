@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Layout</title>
+  <link rel="stylesheet" href="UTS.css">
+</head>
+<body>
+
+<header>
+  <h1>Royal Dashboard</h1>
+  <input type="text" placeholder="Cari Kelas, Dokumen, Aktifitas dll...">
+</header>
+
+<div class="container">
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <nav>
+      <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">Mahasiswa</a></li>
+        <li><a href="#">Kelas</a></li>
+        <li><a href="#">Aktifitas</a></li>
+        <li><a href="#">Statistik</a></li>
+        <li><a href="#">Dokumen</a></li>
+        <li><a href="#">Settings</a></li>
+        <li><a href="#" class="logout">Sign Out</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- Main Content -->
+  <main>
+    <section class="welcome">
+      <div>
+      <h2>Selamat Datang, Aldy Pratama</h2>
+      <h2>Kelas SI-3P</h2><br>
+      <p>Kamu memiliki Statistik, Progres Kelas, 4 Aktifitas Selanjutnya, dan 3 Lampiran <br> Dokumen yang ada pada aplikasi ini.</p>
+    </div>
+    
+    <div class="profile">
+      <img src="Aldy.jpeg" alt="Foto Profil" class="profile-img">
+    </div>
+    </section>
+
+    <section class="dashboard-grid">
+      <!-- Statistik Mahasiswa -->
+      <div class="card">
+
+        <div class="chart">
+          <img src="Student Statistic.svg" alt="">
+        </div>
+      </div>
+
+      <!-- Progres Kelas -->
+      <div class="card">
+        <h3>Progres Kelas</h3>
+        <div class="aktifitas-item">
+          <p><b>Matakuliah A</b></p>
+          <strong>78 Pendaftar</strong>
+        </div>
+        <div class="aktifitas-item">
+          <p><b>Matakuliah B</b></p>
+          <strong>30 Pendaftar</strong>
+        </div>
+        <div class="aktifitas-item">
+          <p><b>Matakuliah C</b></p>
+          <strong>40 Pendaftar</strong>
+        </div>
+        <div class="aktifitas-item">
+          <p><b>Matakuliah D</b></p>
+          <strong>10 Pendaftar</strong>
+        </div>
+      </div>
+
+      <!-- Aktifitas Selanjutnya -->
+      <div class="card">
+        <h3>Aktivitas Selanjutnya</h3>
+        <div class="aktifitas-item">
+          <p><b>Perkuliahan Daring 1</b></p>
+          <strong>Senin, 15 Januari 2025</strong>
+        </div>
+        <div class="aktifitas-item">
+          <p><b>Perkuliahan Daring 1</b></p>
+          <strong>Selasa, 15 Februari 2025</strong>
+        </div>
+        <div class="aktifitas-item">
+          <p><b>Perkuliahan Daring 1</b></p>
+          <strong>Rabu, 15 Maret 2025</strong>
+        </div>
+        <div class="aktifitas-item">
+          <p><b>Perkuliahan Daring 1</b></p>
+          <strong>Kamis, 15 April 2025</strong>
+        </div>
+      </div>
+    </section>
+
+    <footer></footer>
+    <section class="documents">
+      <h3>Lampiran</h3>
+      <div class="documents-item">
+          <p><b>Lampiran Dokumen 1 -</b> Matakuliah A | Tugas Bersama Perkuliahan Daring  | <a href="">Lihat Dokument</a></p>
+      </div>
+      <div class="documents-item">
+          <p><b>Lampiran Dokumen 2 -</b> Matakuliah B | Tugas Bersama Perkuliahan Daring  | <a href="">Lihat Dokument</a></p>
+      </div>
+      <div class="documents-item">
+          <p><b>Lampiran Dokumen 3 -</b> Matakuliah C | Tugas Bersama Perkuliahan Daring  | <a href="">Lihat Dokument</a></p>
+      </div>
+  </section>
+  </main>
+</div>
+</footer>
+</body>
+</html>

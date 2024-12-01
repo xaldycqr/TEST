@@ -1,0 +1,209 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #bdbdbd;
+    color: #333333;
+    height: 9px;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #bdbdbd;
+    color: #010755;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 200px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #00509e;
+    padding: 20px;
+    height: 947px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+  }
+  
+  .sidebar ul li {
+    margin: 20px;
+  }
+  
+  .sidebar ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 17px;
+    display: block;
+    border-radius: 5px;
+    
+  }
+  
+  .sidebar ul li a.active,
+  .sidebar ul li a:hover {
+    background-color: #052546;
+    align-items: center;
+  }
+  
+  .sidebar ul li a.logout {
+    color: #ff4d4d;
+  }
+  
+  /* Main Content */
+  main {
+    flex: 1;
+    padding: 20px;
+    margin: 15px 0;
+  }
+  
+  .welcome {
+    background-color: #00509e;
+    color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    letter-spacing: 1px;
+  }
+  
+  .profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid white;  
+  }
+  
+  /* Dashboard Layout */
+  .dashboard-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Statistik lebih besar */
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    background-color: #f8fbff;
+    
+    padding: 20px;
+    
+  }
+  
+  .card img {
+    width: 450px;
+    height: 400px;
+    margin: 0;
+  }
+  
+  .card .chart {
+    background-color: #f8f9fa;
+    position: relative; /* atau absolute, fixed, atau sticky */
+    top: 75px; /* Jarak dari atas */
+  }
+  
+  .card h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .chart {
+    width: 100%;
+    height: 250px;
+    background-color: #e9f4ff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .aktifitas-item {
+    background-color: #f8fbff;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .aktifitas-item strong {
+    font-size: 1.1rem;
+    color: #00509e;
+  }
+  
+  .aktifitas-item p {
+    margin-top: 5px;
+    color: #333;
+  }
+  
+  .documents {
+    margin-top: 20px;
+  }
+  
+  .documents ul {
+    list-style: none;
+  }
+  
+  .documents ul li a {
+    color: #00509e;
+    text-decoration: none;
+  }
+  
+
+  .documents{
+    margin: 3px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px !important;
+    width: 100%;
+    gap: 10px;
+    background-color: #ffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .documents h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Gaya untuk setiap item*/
+  .documents-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    background-color: #e8ecf0;
+    border-radius: 5px;
+    transition: background-color 0.4s ease, box-shadow 0.3s ease;
+  }
+
+  
